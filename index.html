@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<body>
+   <h1>HTML form</h1>
+<h2>Login Form</h2>
+<form action="/">
+<p>
+     <div><label for="name">Name</label></div>
+    <input id="name" type="text" name="name" placeholder="Enter your name">
+</p> 
+   
+    <div><label for="Email">Email</label></div>
+    <input id="Email" type="email" name="email" placeholder="Enter your Email ">
+<p> 
+         <div><label for="mobile">Mobile Number</label></div>
+        <input id="mobile" type="tel" name="mobile" placeholder="Enter your Mobile Number ">
+</p>
+<p> 
+         <div><label for="password">Password</label></div>
+        <input id="password" type="password" name="password" placeholder="Enter your password">
+</p>
+
+
+<form action="/submit" method="POST">
+    <label>
+      <input type="checkbox" name="agree" required>
+      I agree to the <a href="/terms-and-conditions" target="_blank">Terms and Conditions</a>
+    </label>
+    <br><br>
+    <button type="submit">Submit</button>
+  </form>
+<!-- <button type="reset">Reset</button> -->
+<!-- <button type="submit">Submit</button> -->
+</form>
+
+
+<h2>Google</h2>
+<form action="https://www.google.co.in/search">
+<input id="Google" type="text" name="q">
+<button>search on Google</button>
+</form>
+
+<h2>Amazone</h2>
+<form action="https://www.amazon.com/s">
+<input id="Amazone" type="text" name="k">
+<button>search on amazone</button>
+</form>
+
+<h2>YouTube</h2>
+ <form action="https://www.youtube.com/results">
+    
+ <input id="YouTube" type="text" name="search_query">
+ <button>Search on YouTube</button>
+ </form>
+
+    <h2>Flipkart</h2>
+    <form action="https://www.flipkart.com/search">
+     <lable for="YouTube">Flipkart search</lable>
+     <input id="flipkart" type="text" name="q">
+     <button type="submit">Search on Flipkart</button>
+    </form>
+
+    <h2>My Form</h2>
+    <form action="/">
+     <input type="text" placeholder="enter your name">
+     <input type="number" placeholder="please enter your number" min="100" max="200">
+     <input type="password"  placeholder=" enter your password" minlength="6" maxlength="10">
+     <input type="tel" >
+     <input type="checkbox" >
+     <input type="date" >
+     <input type="color" >
+     <input type="time" >
+     <input type="file" >
+     <input type="submit" value="search" >
+    
+     <button>Submit</button>
+    </form>
+ 
+
+ 
+
+</body>
+</html>
